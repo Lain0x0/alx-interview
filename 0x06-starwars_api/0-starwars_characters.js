@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/** 
+/**
  * Star Wars Alx Interview
 */
 
