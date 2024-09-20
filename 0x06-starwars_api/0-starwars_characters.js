@@ -1,4 +1,6 @@
 #!/usr/bin/node
+/** This is a star wars api code test */
+
 const request = require('request');
 const API_URL = 'https://swapi-api.hbtn.io/api';
 
