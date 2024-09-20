@@ -5,8 +5,8 @@
 
 const request = require('request');
 
-const fetch = (urlbase) => new Promise((resolve, reject) => {
-  request(urlbase, (err, _, body) => {
+const fetch = (url) => new Promise((resolve, reject) => {
+  request(url, (err, _, body) => {
     if (err) reject(err);
     else resolve(JSON.parse(body));
   });
